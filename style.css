@@ -11,16 +11,15 @@
 
 body, html, section {
     width: 100%;
-    height: 100%;    
-}
-
-#home {
+    height: 100%;
     background-image: linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.85)), url(./assets/lilac.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* margin: 0; */
+    background-attachment: fixed;    
 }
+
+
 
 .header {
     width: 100%;
@@ -101,10 +100,10 @@ body, html, section {
 }
 
 #about {
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.85)), url(./assets/rose-1.jpg);
+    /* background-image: linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.85)), url(./assets/rose-1.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     padding: 40px;
 }
 
@@ -122,10 +121,10 @@ body, html, section {
 }
 
 #why-us {
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.85)), url(./assets/rose-2.jpg);
+    /* background-image: linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.85)), url(./assets/rose-2.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     padding: 40px;
 }
 
